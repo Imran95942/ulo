@@ -27,7 +27,7 @@ Owner_info_msg = (
 
 **Message Forwards** - {udB.get("PMBOT")}
 
-**Ultroid [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
+**Ultroid [v{ultroid_version}](https://isIam07), powered by @TeamIslam07**
 """
 )
 
