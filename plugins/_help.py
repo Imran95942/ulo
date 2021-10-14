@@ -56,7 +56,7 @@ async def _help(ult):
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["VCBot"][plug]:
                     output += i
-                output += "\n© @TeamUltroid"
+                output += "\n© @TeamIslam07"
                 await eor(ult, output)
             else:
                 try:
@@ -64,7 +64,7 @@ async def _help(ult):
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
-                    x += "\n© @TeamUltroid"
+                    x += "\n© @TeamIslam07"
                     await eor(ult, x)
                 except BaseException:
                     await eor(ult, get_string("help_1").format(plug), time=5)
