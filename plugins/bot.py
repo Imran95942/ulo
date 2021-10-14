@@ -254,8 +254,8 @@ async def inline_alive(ult):
     )
     buttons = [
         [
-            Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-            Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
+            Button.url(get_string("bot_3"), "https://t.me/isIam07"),
+            Button.url(get_string("bot_4"), "t.me/isIam07"),
         ]
     ]
     builder = ult.builder
@@ -274,7 +274,7 @@ async def inline_alive(ult):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@TheUltroid",
+                        description="isIam07",
                         buttons=buttons,
                     )
                 ]
