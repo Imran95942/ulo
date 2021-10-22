@@ -100,7 +100,7 @@ async def remove_afk(event):
         and not is_approved(event.chat_id)
     ):
         return
-    elif "afk" in event.text.lower():
+    elif "islam" in event.text.lower():
         return
     if is_afk():
         _, _, _, afk_time = is_afk()
