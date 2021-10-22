@@ -19,7 +19,7 @@ START = """
 
 ADMINTOOLS = """✘ **AdminTools** ✘
 
-• /pin : Pins the Replied Message
+• /pin : Pins💀 the Replied Message
 • /pinned : Get Pinned message in chat.
 • /unpin : Unpin the Replied message
 • /unpin all : Unpin all Pinned Messages.
