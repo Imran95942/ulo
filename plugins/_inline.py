@@ -43,8 +43,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupport"),
+        Button.url("• Repo •", url="https://github.com/Imran95942/ulo"),
+        Button.url("• Support •", url="t.me/IsIam07"),
     ],
 ]
 
@@ -252,7 +252,7 @@ async def _(e):
         [
             Button.switch_inline(
                 "Piston Eval",
-                query="run javascript console.log('Hello Ultroid')",
+                query="run javascript console.log('Hello Islam')",
                 same_peer=True,
             ),
             Button.switch_inline(
@@ -651,7 +651,7 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Ultroid Op",
+                            title="Islam Op",
                             text=txt,
                             description="@TeamIslam07",
                             buttons=btn,
@@ -681,7 +681,7 @@ async def ibuild(e):
         except Exception as er:
             LOGS.exception(er)
     result = [
-        await builder.article("Ultroid Op", text=txt, link_preview=False, buttons=btn)
+        await builder.article("Islam Op", text=txt, link_preview=False, buttons=btn)
     ]
     await e.answer(result)
 
