@@ -1,18 +1,18 @@
 # Ultroid - UserBot
 # Copyright (C) 2021 TeamUltroid
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/Imran95942/ulo/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# <https://github.com/Imran95942/ulo//blob/main/LICENSE/>.
 """
 ✘ Commands Available -
 
 • `{i}button <text with button format`
    create button u can reply to pic also
 
-Format:- `{i}button Hey There! @UseUltroid 😎.
-[Ultroid | t.me/theUltroid][Support | t.me/UltroidSupport | same]
-[TeamUltroid | t.me/TeamUltroid]`
+Format:- `{i}button Hey There! @IsIam07 😎.
+[Ultroid | t.me/IsIam07][Support | t.me/IsIam07 | same]
+[TeamUltroid | t.me/IsIam07]`
 """
 
 from pyUltroid.functions.tools import create_tl_btn, get_msg_button
