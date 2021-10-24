@@ -14,7 +14,7 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-• **ULTROID USERBOT** •\n
+• **ISLAM USERBOT** •\n
 • Repo - [Click Here](https://t.me/isIam07)
 • Addons - [Click Here](https://t.me/isIam07)
 • Support - @isIam07
@@ -25,7 +25,7 @@ RP_BUTTONS = [
         Button.url(get_string("bot_3"), "https://t.me/isIam07"),
         Button.url("Addons", "https://t.me/isIam07"),
     ],
-    [Button.url("Support Group", "t.me/isIam07")],
+    [Button.url("🔥Support Group", "t.me/isIam07")],
 ]
 
 ULTSTRING = """🎇 **Thanks for Deploying Islam Userbot!**
