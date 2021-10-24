@@ -160,8 +160,8 @@ async def is_on(ult):
     buttons = [
         [Button.inline(get_string("bot_2"), "alive")],
         [
-            Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-            Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
+            Button.url(get_string("bot_3"), "https://github.com/Imran95942/ulo"),
+            Button.url(get_string("bot_4"), "t.me/IsIam07"),
         ],
     ]
     await ult.client.send_message(
@@ -200,7 +200,7 @@ async def restartbt(ult):
     if heroku_api:
         return await restart(ok)
     await bash("git pull && pip3 install -r requirements.txt")
-    os.execl(sys.executable, sys.executable, "-m", "pyUltroid")
+    os.execl(sys.executable, sys.executable, "-m", "Islam")
 
 
 @ultroid_cmd(
